@@ -1,0 +1,24 @@
+{
+    "name": "backend",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "lab -C -D -v -l --context-timeout 0 --timeout 10000"
+    },
+    "version": "1.0.0",
+    "main": "app.js",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt-nodejs": "0.0.3",
+        "boom": "^7.2.0",
+        "colors": "^1.2.1",
+        "config": "^1.30.0",
+        "hapi": "^17.2.2",
+        "hapi-auth-jwt2": "^8.0.0",
+        "joi": "^13.0.2",
+        "jsonwebtoken": "^8.2.0",
+        "mongoose": "4.13.4"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.11"
+    }
+}
