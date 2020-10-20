@@ -38,7 +38,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">White Whale Analytics</h1>
+          <h1 className="App-title">White Whale Technical Test</h1>
         </header>
         <section>
             <h2>Programming test</h2>
@@ -46,15 +46,16 @@ class App extends Component {
               This test will be looking for a few things...
             </p>
             <ul>
-              <li>Project layout</li>
-              <li>React understanding</li>
-              <li>CSS understanding</li>
-              <li>Use of flexbox</li>
               <li>Managing time</li>
-              <li>Googling skills</li>
+              <li>Ability to use a new stack</li>
+              <li>Project layout</li>
+              <li>Database schema design</li>
+              <li>Node js</li>
+              <li>React</li>
+              <li>CSS</li>
             </ul>
             <h3>Task</h3>
-            <p>Create a reddit card list that pulls a post from a backend service.</p>
+            <p>Create a reddit card list that pulls an array of posts from a backend service.  The UI should be based on the designs below. Add as much functionality as possible within the time limits.</p>
             <img src={design} alt="design" />
 
         </section>
