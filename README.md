@@ -1,7 +1,8 @@
 __ASK QUESTIONS!!!__
 # Reddit post full stack
 
-__Time limit: 3h__ 
+__Time limit: 2h__
+__Discussion: 20m__
 
 The goal of this test is to create a reddit homepage style list with a handful of posts that pull from a backend.
 
@@ -15,10 +16,8 @@ do things properly under pressure. Obviously, finishing is a plus, but proper st
 ## Setup
 
 #### Downloading and setting up Mongodb
-1. Install homebrew
-2. `brew install mongodb`
-3. sudo mkdir -p /data/db
-4. sudo chmod -R go+w /data/db
+Follow the instructions for your OS [here](https://docs.mongodb.com/manual/administration/install-community/).
+If you're on a mac, you may need to use a `dbpath` that is not in the root directory, eg. `~/data/db`.
 
 ### MongoDB
 Start mongodb using the command:
@@ -26,25 +25,19 @@ Start mongodb using the command:
 mongod
 ```
 
-#### Accessing mongo
+#### Accessing mongo (optional)
 Use Robo 3t to connect and view the DB.
-__URL__
-```
-http://localhost:27017
-```
 
 ---
 ### Frontend
-The frontend is built using the react create app tool. It is vanilla react.
+The frontend is built using the React create app tool. It is vanilla React.
 #### First time setup
 ```
 npm install
 npm start
 ```
+This command should automatically open the web page `http://localhost:3000/`.
 
-#### Frameworks and Libraries
-- React
----
 ### Backend
 The backend is built using the hapi cli tool. There is a sample route, controller, and model that should help you get started: __`user`__. The __`policies`__ folder will not be used in this test.
 
@@ -53,8 +46,7 @@ The backend is built using the hapi cli tool. There is a sample route, controlle
 npm install
 npm start
 ```
-
-__NOTE__: use Postman to quickly build and test endpoints.
+This command should start the backend server on port `3001`.
 
 #### A step to help
 You can use the file `postman_import.json` to import routes for `/user` to explore and test the sample API in `Postman`.
@@ -66,4 +58,4 @@ Post a user to the database and reference the user route, controller, and model 
 - Mongoose
 
 # Submission
-Please branch off of this repository and push your changes when done. Email confirmation, as well as the branch name, to the reviewer. Make sure it is within the timeframe given for the challange. 
+Please branch off of this repository and create a pull request when you're done.  We will have a technical discussion afterwards about how you approach the problem.
