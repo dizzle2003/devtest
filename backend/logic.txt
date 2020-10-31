@@ -1,0 +1,7 @@
+###### BACKEND STEPS #######
+1. Understand the dependencies used on the backend eg HAPI, JOI and Boom
+2. Create the Post Model and export for use in controller
+3. Create the Post Controller file and use the same naming convention that Sarah uses and export controllers for use in routes
+4. Create Post route and import the Post controller
+5. Follow the same HAPI convention used by Sarah to create routes
+6. Try and write unit tests if time permits
